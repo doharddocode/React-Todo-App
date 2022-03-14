@@ -1,0 +1,20 @@
+.todo-list-add-area {
+    margin: .75rem 0 0 0;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    grid-gap: 20px;
+}
+
+.todo-list-add-area input[type="text"] {
+    height: 40px;
+}
+
+.todo-list-add-area .input-group-text {
+    height: 40px !important;
+}
+
+.todo-list-add-area .btn-add {
+    height: 40px;
+    width: 40px;
+}
